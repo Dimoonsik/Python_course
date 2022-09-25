@@ -2,7 +2,6 @@
 import time
 import datetime
 import os
-
 s = '\u2B1B'
 w = '\u2B1C'
 zero = [
@@ -142,7 +141,7 @@ while True:
                 clock.append(nine)
             elif i == ':':
                 clock.append(double_dot)   
-        print("\033[34m{}".format(clock[0][0] + ' ' + clock[1][0] + ' ' + clock[2][0] + ' ' + clock[3][0] + ' ' + clock[4][0] + ' ' + clock[5][0] + ' ' + clock[6][0] + ' ' + clock[7][0]))
+        print(clock[0][0] + ' ' + clock[1][0] + ' ' + clock[2][0] + ' ' + clock[3][0] + ' ' + clock[4][0] + ' ' + clock[5][0] + ' ' + clock[6][0] + ' ' + clock[7][0])
         print(clock[0][1] + ' ' + clock[1][1] + ' ' + clock[2][1] + ' ' + clock[3][1] + ' ' + clock[4][1] + ' ' + clock[5][1] + ' ' + clock[6][1] + ' ' + clock[7][1])
         print(clock[0][2] + ' ' + clock[1][2] + ' ' + clock[2][2] + ' ' + clock[3][2] + ' ' + clock[4][2] + ' ' + clock[5][2] + ' ' + clock[6][2] + ' ' + clock[7][2])
         print(clock[0][3] + ' ' + clock[1][3] + ' ' + clock[2][3] + ' ' + clock[3][3] + ' ' + clock[4][3] + ' ' + clock[5][3] + ' ' + clock[6][3] + ' ' + clock[7][3])
